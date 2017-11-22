@@ -1,0 +1,24 @@
+{
+  "name": "datechange",
+  "version": "1.0.0",
+  "description": "change date format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuangmuyingzi/dateFormat.git"
+  },
+  "keywords": [
+    "dateformat",
+    "date",
+    "datechange"
+  ],
+  "author": "lingzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuangmuyingzi/dateFormat/issues"
+  },
+  "homepage": "https://github.com/shuangmuyingzi/dateFormat#readme"
+}
