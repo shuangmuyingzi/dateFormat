@@ -6,7 +6,7 @@
 (function(global) {
   'use strict';
 
-  var dateFormat = (function() {
+  var datechange = (function() {
       
       return function (date) {
   
@@ -27,12 +27,12 @@
 
   if (typeof define === 'function' && define.amd) {
     define(function () {
-      return dateFormat;
+      return datechange;
     });
   } else if (typeof exports === 'object') {
-    module.exports = dateFormat;
+    module.exports = datechange;
   } else {
-    global.dateFormat = dateFormat;
+    global.datechange = datechange;
   }
 
 })(this);
