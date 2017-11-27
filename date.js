@@ -36,3 +36,33 @@
   }
 
 })(this);
+
+/*
+ * Date Format 1.0.0
+ * MIT license
+ */
+
+
+
+ /* var datechange = (function() {
+      
+      return function (date) {
+  
+        date = date || new Date;
+  
+        if(!(date instanceof Date)) {
+          date = new Date(date);
+        }
+  
+        if (isNaN(date)) {
+          throw TypeError('Invalid date');
+        }
+        let re = date.getFullYear() + '.' + (date.getMonth()+1) + '.' + date.getDate();
+        return re
+  
+      }
+  })()
+
+  
+  export default datechange;*/
+  //module.exports = datechange;
